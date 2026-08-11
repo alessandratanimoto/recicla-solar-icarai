@@ -35,6 +35,11 @@ O projeto foi construído utilizando tecnologias fundamentais da Web:
 ├── script.js        # Lógica de interatividade e consulta de itens
 └── README.md        # Documentação do projeto
 
+## 🌐 Como Acessar a Aplicação
+
+- **Aplicação no Ar (GitHub Pages):** [Acessar o Site de Reciclagem](https://alessandratanimoto.github.io/recicla-solar-icarai/)
+- **Código-Fonte (Repositório):** [Acessar Repositório no GitHub](https://github.com/alessandratanimoto/recicla-solar-icarai)
+
 
 
 
