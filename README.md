@@ -44,5 +44,3 @@ O projeto foi construído utilizando tecnologias fundamentais da Web:
 
 
 
-
-
