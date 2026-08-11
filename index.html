@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recicla Icaraí - Condomínio Solar do Icaraí</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>♻️ Recicla Icaraí</h1>
+      <p>Guia Prático de Coleta Seletiva e Sustentabilidade no Condomínio Solar do Icaraí</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card intro">
+      <h2>Preservação e Conscientização Comunitária</h2>
+      <p>Este portal foi desenvolvido para auxiliar os moradores na correta separação dos resíduos, contribuindo para a redução da poluição, economia de recursos naturais e apoio aos Objetivos de Desenvolvimento Sustentável (ODS 12 e ODS 13).</p>
+    </section>
+
+    <section class="card">
+      <h2>Cores e Tipos de Lixeiras</h2>
+      <p class="subtitle">Clique em uma categoria para ver as instruções de descarte:</p>
+      
+      <div class="grid-lixeiras">
+        <button class="btn-lixeira azul" onclick="mostrarInstrucao('papel')">📄 Papel</button>
+        <button class="btn-lixeira vermelho" onclick="mostrarInstrucao('plastico')">🥤 Plástico</button>
+        <button class="btn-lixeira verde" onclick="mostrarInstrucao('vidro')">🍾 Vidro</button>
+        <button class="btn-lixeira amarelo" onclick="mostrarInstrucao('metal')">🥫 Metal</button>
+        <button class="btn-lixeira marrom" onclick="mostrarInstrucao('organico')">🍎 Orgânico</button>
+      </div>
+
+      <div id="painel-instrucao" class="painel-instrucao hidden">
+        <h3 id="titulo-lixeira"></h3>
+        <p><strong>O que descartar:</strong> <span id="pode-descartar"></span></p>
+        <p><strong>O que NÃO descartar:</strong> <span id="nao-descartar"></span></p>
+        <p class="dica">💡 <strong>Dica de Higienização:</strong> <span id="dica-higienizacao"></span></p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Consulta Rápida de Resíduos</h2>
+      <input type="text" id="campo-busca" placeholder="Digite o item (ex: caixa de leite, garrafa PET, lâmpada)..." onkeyup="buscarItem()">
+      <ul id="resultado-busca" class="lista-busca"></ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Condomínio Solar do Icaraí — Caucaia / CE</p>
+    <p><small>Atividade Extensionista II — Análise e Desenvolvimento de Sistemas (UNINTER)</small></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

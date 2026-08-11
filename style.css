@@ -1,0 +1,120 @@
+:root {
+  --primary: #2e7d32;
+  --bg: #f4f6f8;
+  --text: #333;
+  --card-bg: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.header {
+  background-color: var(--primary);
+  color: white;
+  padding: 32px 0;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+
+.card {
+  background: var(--card-bg);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.subtitle {
+  margin-bottom: 16px;
+  color: #666;
+}
+
+.grid-lixeiras {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+}
+
+.btn-lixeira {
+  border: none;
+  color: white;
+  padding: 16px 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.btn-lixeira:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.azul { background-color: #1976d2; }
+.vermelho { background-color: #d32f2f; }
+.verde { background-color: #388e3c; }
+.amarelo { background-color: #fbc02d; color: #333; }
+.marrom { background-color: #5d4037; }
+
+.painel-instrucao {
+  margin-top: 20px;
+  padding: 16px;
+  background-color: #e8f5e9;
+  border-left: 5px solid var(--primary);
+  border-radius: 4px;
+}
+
+.hidden {
+  display: none;
+}
+
+.dica {
+  margin-top: 10px;
+  color: #1b5e20;
+}
+
+#campo-busca {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.lista-busca {
+  list-style: none;
+}
+
+.lista-busca li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+}
+
+.footer {
+  text-align: center;
+  padding: 24px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
