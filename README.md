@@ -1,3 +1,4 @@
+Markdown
 # recicla-solar-icarai
 Guia de Reciclagem para o Condomínio Solar do Icarai
 
@@ -35,7 +36,7 @@ O projeto foi construído utilizando tecnologias fundamentais da Web:
 ├── script.js        # Lógica de interatividade e consulta de itens
 └── README.md        # Documentação do projeto
 
-Markdown
+
 ## 🌐 Como Acessar a Aplicação
 
 - **Aplicação no Ar (GitHub Pages):** [Acessar o Site de Reciclagem](https://alessandratanimoto.github.io/recicla-solar-icarai/)
