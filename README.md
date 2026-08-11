@@ -1,4 +1,3 @@
-Markdown
 # recicla-solar-icarai
 Guia de Reciclagem para o Condomínio Solar do Icarai
 
@@ -37,17 +36,7 @@ O projeto foi construído utilizando tecnologias fundamentais da Web:
 └── README.md        # Documentação do projeto
 
 
-## 🌐 Como Acessar a Aplicação
 
-- **Aplicação no Ar (GitHub Pages):** [Acessar o Site de Reciclagem](https://alessandratanimoto.github.io/recicla-solar-icarai/)
-- **Código-Fonte (Repositório):** [Acessar Repositório no GitHub](https://github.com/alessandratanimoto/recicla-solar-icarai)
-
-💻 Como Executar Localmente
-Clone o repositório ou faça o download dos arquivos em seu computador:
-Bash
-git clone [https://github.com/alessandratanimoto/recicla-solar-icarai.git](https://github.com/alessandratanimoto/recicla-solar-icarai.git)
-
-Abra o arquivo index.html em qualquer navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, Safari).
 
 
 
